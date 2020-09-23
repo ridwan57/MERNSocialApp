@@ -1,0 +1,33 @@
+
+###
+
+GET  http://localhost:5000/social-media-ab148/us-central1/api/screams
+
+###
+POST http://localhost:5000/social-media-ab148/us-central1/api/signup
+Content-Type: application/json
+
+{
+    "email": "tgg@gmail.com",
+    "password": "123456",
+    "confirmPassword":"123456",
+    "handle":"tgg"
+}
+
+###
+POST http://localhost:5000/social-media-ab148/us-central1/api/login
+Content-Type: application/json
+
+{
+    "email": "tgg@gmail.com",
+    "password": "123456"
+}
+
+###
+POST http://localhost:5000/social-media-ab148/us-central1/api/scream
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJSUzI1NiIsImtpZCI6IjFlNjYzOGY4NDlkODVhNWVkMGQ1M2NkNDI1MzE0Y2Q1MGYwYjY1YWUiLCJ0eXAiOiJKV1QifQ.eyJpc3MiOiJodHRwczovL3NlY3VyZXRva2VuLmdvb2dsZS5jb20vc29jaWFsLW1lZGlhLWFiMTQ4IiwiYXVkIjoic29jaWFsLW1lZGlhLWFiMTQ4IiwiYXV0aF90aW1lIjoxNjAwOTAwMjQ3LCJ1c2VyX2lkIjoianNBVDZraXl2Ulg0dkh5aFIwZDRlcmVYVkhQMiIsInN1YiI6ImpzQVQ2a2l5dlJYNHZIeWhSMGQ0ZXJlWFZIUDIiLCJpYXQiOjE2MDA5MDAyNDcsImV4cCI6MTYwMDkwMzg0NywiZW1haWwiOiJ0Z2dAZ21haWwuY29tIiwiZW1haWxfdmVyaWZpZWQiOmZhbHNlLCJmaXJlYmFzZSI6eyJpZGVudGl0aWVzIjp7ImVtYWlsIjpbInRnZ0BnbWFpbC5jb20iXX0sInNpZ25faW5fcHJvdmlkZXIiOiJwYXNzd29yZCJ9fQ.f9twhSDUeZShwUay7hl95hHHRLzsPzV99wftR1gnHVWQFskAj8SDL4j-PkHnj59CT9yn_FkZ6RV7WnWTJajjz4DsC-xnqNgRTkeKnH_bGhRMt2MV8rn2j3ypRf5PWGwl2ajjD4nrkIVTV192OUEh63zujHH7guJBGFKiqrY9tvIHmPVh-kezPO5i3oGtVBM9bFb5Rdj9Qg4ms1Jie-Ke8CE3waG-HeUmumYSbSlHZVIVteqxwifQ4r_4kbjkEYu8jqmfcD2POfHSQlewH1HOvUwOMbVMWoR2EDlxKV0CpVN__MtAcOc83opIpzYULSzt47gAfrdIdMBzX7QAHR_jwA
+
+{
+    "body": "I am tgg"
+}
